@@ -1,54 +1,42 @@
-# React + TypeScript + Vite
+# 🌐 DigitalCorp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**DigitalCorp** is a clean and modern agency website designed to promote our full-service web development team. We specialize in delivering complete web projects — from design and frontend to backend and deployment. This site serves as our digital business card, presenting what we do and how potential clients can reach us.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Live Demo
 
-## Expanding the ESLint configuration
+> 🚧 Coming Soon – the site will be deployed at [https://digitalcorp.example.com](https://digitalcorp.example.com)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 📸 Preview
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+![DigitalCorp Screenshot](./preview.png)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 🔍 Features
+
+- 💼 **About Us** – Learn who we are and what we stand for.
+- 🧠 **Services** – Explore what we offer with interactive Q&A.
+- 📞 **Contact Section** – Includes customer support and social media links.
+- 🔤 **Custom Georgian Font** – Integrated with fallback for cross-browser support.
+- 📱 **Responsive Design** – Looks great on mobile, tablet, and desktop.
+- ⚡ Built with **React** and **styled-components**.
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology        | Usage                       |
+| ----------------- | --------------------------- |
+| React             | Frontend framework          |
+| TypeScript        | Type safety and DX          |
+| Styled-Components | CSS-in-JS styling           |
+| Custom Fonts      | Georgian typography support |
+| JSON              | Dynamic content (services)  |
+
+---
+
+## 📂 Project Structure
