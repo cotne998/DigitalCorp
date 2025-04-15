@@ -1,3 +1,7 @@
 export default function Portfolio() {
-  return <div></div>;
+  return (
+    <>
+      <h1 style={{ textAlign: "center", fontSize: "5rem" }}>მალე დაემატება</h1>
+    </>
+  );
 }
