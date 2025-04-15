@@ -1,0 +1,71 @@
+{
+  "about": {
+    "name": "ჩვენ შესახებ",
+    "title": "შექმენი შენი ვებსაიტი ჩვენთან ერთად",
+    "textContent": "გაქვს იდეა? ჩვენ ვაქცევთ მას ვებ-საიტად. DigitalCorp გთავაზობს სრულყოფილ ვებ-გადაწყვეტილებებს თანამედროვე დიზაინით და ფუნქციონალით — შენ მხოლოდ დაგვიკავშირდი.",
+    "image": "/assets/home-image.jpg"
+  },
+  "services": {
+    "name": "სერვისები",
+    "questions": [
+      {
+        "name": "firstQuestion",
+        "title": "რას გთავაზობთ ჩვენ",
+        "textContent": "ჩვენ ვქმნით სრულად გამართულ ვებსაიტებს — დიზაინიდან გაშვებამდე. DigitalCorp არის fullstack გუნდი, რომელიც მუშაობს UX/UI დიზაინზე, Front-end-სა და Back-end-ზე, რათა კლიენტს მივაწოდოთ მაღალი ხარისხის მქონე და შედეგზე ორიენტირებული ვებპროდუქტი."
+      },
+      {
+        "name": "secondQuestion",
+        "title": "რა ტექნოლოგიებს ვიყენებთ",
+        "textContent": "ჩვენი კომპანია იყენებს ტექნოლოგიებსა და ხელსაწყოებს, რომლებიც დღესდღეობით ყველაზე მოთხოვნადია ბაზარზე. ჩვენ ვიყენებთ - React/Next.js, tailwind css, styled components, scss, Angular, TypeScript კლიენტის მხარეს. ხოლო სერვერის მხარეს - PHP, Django, Node.js და ა.შ. ჩვენი გუნდი საკმაოდ მრავალფეროვანი ხელსაწყოებითაა აღჭურვილი, რათა შეძლოს ყველანაირ პრობლემასთან გამკლავება და სრული პროდუქტის ჩამოყალიბება."
+      },
+      {
+        "name": "thirdQuestion",
+        "title": "რატომ ჩვენ?",
+        "textContent": "რადგან ჩვენთვის ყველაზე მთავარია ჩვენი მომხმარებელი და საქმე. ჩვენთვის მხოლოდ შენი იდეაა მთავარი, დანარჩენი ჩვენ მოგვანდე. ჩვენი სრულყოფილი გუნდი შეძლებს შენი პროდუქტის რეალიზაციას. შენ არ მოგიწევს დიზაინსა და უშუალოდ საიტზე ფიქრი, რადგან ჩვენ აქ ვართ!"
+      }
+    ],
+
+    "image": "/assets/female-illustration.png"
+  },
+  "contact": {
+    "name": "კონტაქტი",
+    "pageTitle": "დაგვეკონტაქტე",
+
+    "customerSupport": {
+      "title": "საკონტაქტო",
+
+      "email": {
+        "emailIcon": "/assets/icon-email.svg",
+        "email": "cotnecincadze998@gmail.com"
+      },
+      "phone": {
+        "phoneIcon": "/assets/icon-phone.svg",
+        "phoneNumber": "+995 579 23 77 43"
+      }
+    },
+
+    "socialMedia": [
+      {
+        "name": "instagram",
+        "title": "Instagram",
+        "link": "ჩვენი ინსტაგრამი",
+        "icon": "/assets/icon-instagram.svg",
+        "color": "#C13584"
+      },
+      {
+        "name": "facebook",
+        "title": "Facebook",
+        "link": "ჩვენი ფეისბუქი",
+        "icon": "/assets/icon-facebook.svg",
+        "color": "#1877F2"
+      },
+      {
+        "name": "linkedin",
+        "title": "LinkedIn",
+        "link": "გამოგვყევი LinkedIn-ზე",
+        "icon": "/assets/icon-linkedin.svg",
+        "color": "#0077B5"
+      }
+    ]
+  }
+}
