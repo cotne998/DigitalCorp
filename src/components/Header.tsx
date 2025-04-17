@@ -118,21 +118,8 @@ const Logo = styled.img`
   }
 `;
 
-const HamburgerAnimation = keyframes`
-  0% {
-    transform: rotate(0);
-  }
-  100% {
-    transform: rotate(-180deg);
-  }
-`;
-
 const Hamburger = styled.img`
   cursor: pointer;
-  &:active {
-    animation-name: ${HamburgerAnimation};
-    animation-duration: 0.3s;
-  }
 
   @media only screen and (min-width: 48rem) {
     display: none;
