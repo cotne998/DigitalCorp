@@ -86,12 +86,19 @@ const Questions = styled.div`
   animation-name: ${SlideText};
   animation-duration: 0.7s;
 
+  background-color: white;
+  border-radius: 1.3rem;
+  padding: 2rem 1.7rem;
+
   @media only screen and (min-width: 48rem) {
     gap: 3.5rem;
   }
 
   @media only screen and (min-width: 90rem) {
+    min-width: 66rem;
     max-width: 66.7rem;
+    border-radius: 1.3rem;
+    padding: 3rem 2.5rem;
   }
 `;
 
@@ -100,10 +107,6 @@ const QuestionDiv = styled.div`
   justify-content: space-between;
   align-items: start;
   cursor: pointer;
-
-  @media only screen and (min-width: 90rem) {
-    width: 66rem;
-  }
 `;
 
 const Arrow = styled.img`
